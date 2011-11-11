@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 200%;
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+  font-size: 170%;
+}
+h3 {
+  font-weight: bold;
+  font-size: 140%;
+}
+h4 {
+  font-weight: bold;
+  font-size: 110%;
+}
+p {
+  text-align: center;
+}
+
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+}

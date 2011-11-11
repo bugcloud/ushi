@@ -1,0 +1,15 @@
+!!!
+%html{:dir => "ltr", :lang => "ja"}
+  %head
+    %meta{:charset => "UTF-8"}
+    %title .ushi
+    %script{:type => "text/javascript", :src => "//code.jquery.com/jquery-1.7.min.js"}
+    %script{:type => "text/javascript", :src => "assets/bind.js"}
+    %link{:href => "assets/reset.css", :type => "text/css", :rel => "stylesheet"}
+    %link{:href => "assets/default.css", :type => "text/css", :rel => "stylesheet"}
+    %link{:href => "assets/style.css", :type => "text/css", :rel => "stylesheet"}
+  %body
+    = partial :header
+    #wrapper
+      = yield
+    = partial :footer
