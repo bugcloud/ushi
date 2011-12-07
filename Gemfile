@@ -9,6 +9,7 @@ group :development, :test do
   # Pretty printed test output
   gem 'turn', '>= 0.8.2', :require => false
   gem 'rspec', '>= 2.0.0.beta.22'
+  gem 'rack-test'
   gem 'cucumber'
   gem 'cucumber-sinatra'
   gem 'capybara'
