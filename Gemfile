@@ -4,6 +4,8 @@ gem 'sinatra'
 gem 'haml'
 gem 'coffee-script'
 gem 'sprockets', '~> 2.0'
+gem 'mongoid'
+gem 'bson_ext'
 
 group :development, :test do
   # Pretty printed test output

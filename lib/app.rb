@@ -1,7 +1,11 @@
 require 'rubygems'
 require 'json'
 require 'sinatra'
-require 'erb'
+require 'mongoid'
+
+Mongoid.configure do |config|
+  config.master = Mongo::Connection.new.db("ushi")
+end
 
 class App < Sinatra::Base
   set :haml, {:format => :html5}
