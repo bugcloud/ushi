@@ -1,4 +1,5 @@
 $LOAD_PATH << File.expand_path(".")
+$LOAD_PATH << File.expand_path(".") + '/lib'
 require 'rubygems'
 require 'bundler'
 
