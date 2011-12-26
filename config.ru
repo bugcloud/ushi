@@ -3,6 +3,8 @@ $LOAD_PATH << File.expand_path(".") + '/lib'
 require 'rubygems'
 require 'bundler'
 
+Encoding.default_internal = 'utf-8'
+Encoding.default_external = 'utf-8'
 Bundler.setup
 Bundler.require
 
