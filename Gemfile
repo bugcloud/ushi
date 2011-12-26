@@ -2,8 +2,9 @@ source 'http://rubygems.org'
 
 gem 'sinatra'
 gem 'haml'
+gem 'therubyracer'
 gem 'coffee-script'
-gem 'sprockets', '~> 2.0'
+gem 'sprockets', '>= 2.0'
 
 group :development, :test do
   # Pretty printed test output
